@@ -1,6 +1,6 @@
 package com.alaw810.ex1;
 
-public class MainEx1 {
+public class Main {
     public static void main(String[] args) {
         Worker genericWorker = new Worker("Alex", "Smith", 20);
         RemoteWorker remoteWorker = new RemoteWorker("Jamie", "Brown", 25);
