@@ -81,7 +81,7 @@ This is a Java console-based educational exercise and doesn't require production
 ```bash
 javac -d out src/com/alaw810/*.java
 java -cp out com.alaw810.Main
-java -cp out com.alaw810.LegacyUsageDemo
+java -cp out com.alaw810.LegacyUsage
 ```
 
 ---
