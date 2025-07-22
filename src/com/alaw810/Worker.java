@@ -1,4 +1,4 @@
-package com.alaw810.ex1;
+package com.alaw810;
 
 public class Worker {
     private String name;

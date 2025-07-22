@@ -1,4 +1,4 @@
-package com.alaw810.ex1;
+package com.alaw810;
 
 public class RemoteWorker extends Worker {
     private final int INTERNET_FLAT_RATE = 40;
@@ -11,4 +11,11 @@ public class RemoteWorker extends Worker {
     public double calculateSalary(int hours) {
         return hours * getHourlyRate() + INTERNET_FLAT_RATE;
     }
+
+    // Ex 2
+    @Deprecated
+    public double oldSalaryCalculation(int hours) {
+        return hours * getHourlyRate();
+    }
+
 }

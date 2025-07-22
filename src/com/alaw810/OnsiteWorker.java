@@ -1,4 +1,4 @@
-package com.alaw810.ex1;
+package com.alaw810;
 
 public class OnsiteWorker extends Worker {
     private static int gasoline = 100;
@@ -11,4 +11,11 @@ public class OnsiteWorker extends Worker {
     public double calculateSalary(int hours) {
         return hours * getHourlyRate() + gasoline;
     }
+
+    // Ex 2
+    @Deprecated
+    public double oldSalaryCalculation(int hours) {
+        return hours * getHourlyRate();
+    }
+
 }
